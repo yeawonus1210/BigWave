@@ -1,0 +1,299 @@
+@charset "utf-8";
+
+body {
+       
+		text-align:center;
+		background-color:#CEFBC9;
+		background-image: url('../images/wave.jpg'); 
+		margin: auto;
+		background-size: 100% 500px;	
+	    
+}
+
+header {
+			
+			background-color: #ABF200; 
+		
+}
+
+.navbar{
+		
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color: #030066;
+}
+
+.navbar a {
+		
+				display: inline-block;
+		
+}
+
+.navlink {
+		
+		display: block;
+		color: #00D8FF;
+		font-family: 'Fredoka One', cursive;
+		font-size: 20px;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+					
+}
+
+.navlink:hover {
+				background-color: #00D8FF;
+				text-align: center;
+				color: #030066;
+}
+
+
+
+
+.sticky {
+			position: fixed;
+			top: 0;
+			width: 100%;
+}
+
+.sticky + .content {
+						padding-top: 102px;
+}
+
+h2 {
+	
+		color: #001054;
+		font-size: 40px;
+		font-family: 'Bangers', cursive;
+		background-color: #ABF200;
+}
+
+h3 {
+		color: #C90000;
+		font-size: 35px;
+		font-family: 'Acme', sans-serif;
+		font-weight: bold;
+		
+		
+}
+
+p { 
+
+	color: #180054;
+	font-size:22px;
+	font-family:'Indie Flower', cursive;
+	font-weight:bold;
+
+}
+
+* {
+		box-sizing: border-box;
+}
+
+.mySlides {
+			display: none;
+}
+
+img {
+		vertical-align: middle;
+
+}
+
+.slideshow-container {
+						max-width: 1000px;
+						position: relative;
+						margin: auto;
+}
+
+.text {
+		color: #f2f2f2;
+		font-size: 15px;
+		padding: 8px 12px;
+		position: absolute;
+		bottom: 8px;
+		width: 100%;
+		text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 22px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+		height: 15px;
+		width: 15px;
+		margin: 0 2px;
+		background-color: #030066;
+		border-radius: 50%;
+		display: inline-block;
+		transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #ABF200;
+}
+
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+div.box {
+	
+		background-color: #ABF200;
+		width: 400px;
+		border: 15px solid #030066;
+		padding: 50px;
+		margin: 20px;
+		display:inline-block;
+}
+
+p.box1 {
+	
+		font-size: 25px;
+		font-family: 'Fredoka One', cursive;
+		text-align: center;
+		
+}
+
+p.box2{
+	
+		font-size: 20px;
+		font-family:'Indie Flower', cursive;
+		text-align: center;
+		color: #000042;
+}
+
+table {
+  
+		text-align: center;
+		font-style: bold;
+}
+
+th, td {
+		
+		text-align: center;
+		padding: 12px;
+		font-size: 18px;
+		font-family:'Acme', sans-serif;
+
+}
+
+tr:nth-child(even){
+	background-color: #ABF200;
+}
+
+tr:nth-child(odd){
+	background-color: #E4F7BA;
+}
+
+th {
+		
+		background-color: #030066;
+		color: white;
+		text-align: center;
+		font-style: bold;
+}
+
+.button {
+	
+			background-color: #030066;
+			font-size: 25px;
+			color: #00D8FF;
+			width: 50%;
+			padding: 12px;
+			resize: vertical;
+			
+		}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit]{
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+.container {
+  border-radius: 5px;
+  background-color: #ABF200;
+  padding: 10px;
+}
+
+
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+  font-family: 'Fredoka One', cursive;
+  font-size: 17px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+
+
+footer {
+	
+		 background-color: #030066;
+}
+
+p.footer {
+			font-family:'Indie Flower', cursive;
+		    color: #00D8FF;
+			font-size: 20px;
+			font-style:Italic;
+}
+
+
